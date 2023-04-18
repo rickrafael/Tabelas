@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px
+        }
+        .cnome{
+            background-color:blue;
+        }
+        .cgrupo{
+            background-color: antiquewhite;
+        }
+    </style>
+    <title>Exercício de Tabelas</title>
+</head>
+<body>
+    
+    <table>
+      <colgroup>
+        <col class="cnome">
+        <col class="cgrupo" span="3">
+     </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Ricardo Rafael</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Sendy Nunes</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>José Gonçalves</td>
+            <td>M</td>
+            <td>47</td>
+            <td>Geólogo</td>
+        </tr>
+        <tr>
+            <td>Roberta Chagas</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Veterinária</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
