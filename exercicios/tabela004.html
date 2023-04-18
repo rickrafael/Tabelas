@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:rgba(128, 128, 128, 0.537);
+        }
+        table{
+            border-collapse: collapse;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.477);
+            margin: auto;
+        }
+        tbody{
+            background-color: rgb(226, 212, 159);
+        }
+        
+       th{
+        background-color: darkcyan;
+        color: aliceblue;
+       }
+
+        th , td {
+            text-align: center;
+            padding: 15px;
+            border: 1px solid black;   
+        }
+        h1{
+            text-align: center;
+        }
+        .name{
+            background-color: darkgrey;
+        }
+       
+    </style>
+    <title>Tabela </title>
+</head>
+<body>
+    <h1>Tabela de Filmes</h1>
+    <table>
+      <thead>
+        <tr>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th scope="col" colspan="3">Filmes</th>
+        </tr>
+      </thead>
+        <tbody>
+            <tr>
+                <th rowspan=3>Mulheres</th>
+                <td class="name">Ana Maria</td>
+                <td> Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td class="name">Beatriz Souza</td>
+                <td>Apocalypto</td>
+                <td>Predador</td>
+                <td>Minions</td>
+            </tr>
+            <tr>
+                <td class="name">Claudia Melo</td>
+                <td>Coringa</td>
+                <td>Batman</td>
+                <td>Hulk</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td class="name">Bruno Mendonça</td>
+                <td>Wall-E</td>
+                <td>Hell Boy</td>
+                <td>Spider Man</td>
+            </tr>
+            <tr>
+                <td class="name">Ricardo Rafael</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td class="name">Vinicius Souza</td>
+                <td>Bad Boys</td>
+                <td>Gemni</td>
+                <td>Norbit</td>
+            </tr>
+    </tbody>
+    </table>
+    
+</body>
+</html>
